@@ -1,0 +1,64 @@
+body{
+	margin: 0;
+	height: calc(100vh);
+	width: calc(100vw);
+	font-family: 'Roboto', sans-serif;
+}
+
+/*Nav Bar*/
+#nav-bar{
+	background-color: #333;
+	width: 100%;
+	height: 48px;
+}
+
+.header_element{
+	float: left;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+.header_element-hover:hover{
+	background-color: #ddd;
+	color: black;
+}
+
+.header_element-active:active{
+	background-color: #4cafa1;
+	color: white;
+}
+
+.header_element-selected{
+	background-color: #ddd;
+	color: black;
+}
+
+/*Main Styling*/
+#content{
+	margin: 25px;
+	width: calc(100vw - 25px);
+	height: calc(100vh - 98px);
+}
+
+#title {
+	margin: 0;
+	font-size: 50px;
+	font-family: 'Yeseva One', cursive;
+}
+
+#selected {
+	margin: 0;
+	font-size: 25px;
+	font-family: 'Yeseva One', cursive;
+}
+
+#button-wrap {
+	margin-top: 15px;
+}
+
+.highlight{
+	background-color: yellow;
+}

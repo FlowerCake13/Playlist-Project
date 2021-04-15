@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Song Selection</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto&family=Yeseva+One&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div id="container">
+		<header>
+			<div id="nav-bar">
+				<a href="index.html" class="header_element header_element-hover header_element-selected">Song</a>
+				<a href="source.html" class="header_element header_element-hover header_element-active">Sources</a>
+			</div>
+		</header>
+		<div id="content">
+			<h1 id="title">Song Selection</h1>
+			<h2 id="selected">Genre: </h2>
+			<button onclick="random()">Random Song!</button>
+			<div id="button-wrap">
+				<button onclick="genre(this)">Pop</button>
+				<button onclick="genre(this)">Rock</button>
+				<button onclick="genre(this)">RnB</button>
+				<button onclick="genre(this)">Electronic</button>
+				<button onclick="genre(this)">Indie</button>
+				<button onclick="genre(this)">Hip Hop/Rap</button>
+				<button onclick="genre(this)">International</button>
+			</div>
+
+			<div id="music-wrap">
+				<div id="zero" class="music"></div>
+				<div id="one" class="music"></div>
+				<div id="two" class="music"></div>
+				<div id="three" class="music"></div>
+			</div>
+		</div>
+	</div>
+</body>
+<script type="text/javascript" src="js/data.js"></script>
+<script type="text/javascript" src="js/app.js"></script>
+</html>
